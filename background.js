@@ -1,3 +1,5 @@
+/// <reference types="chrome"/>
+
 // Background script to modify request headers
 chrome.webRequest.onBeforeSendHeaders.addListener(
   function (details) {

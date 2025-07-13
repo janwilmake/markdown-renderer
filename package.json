@@ -1,0 +1,8 @@
+{
+  "name": "markdown-renderer-extension",
+  "version": "0.0.1",
+  "description": "Markdown renderer browser extension",
+  "devDependencies": {
+    "@types/chrome": "^0.1.0"
+  }
+}
