@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
   "name": "Markdown Reader",
-  "version": "1.1",
+  "version": "1.2",
   "description": "Renders markdown and plain text content with a beautiful reader-style interface. Sends Accept: text/markdown header.",
-  "permissions": ["activeTab", "webRequest"],
+  "permissions": ["activeTab", "declarativeNetRequest"],
   "host_permissions": ["<all_urls>"],
   "background": {
     "service_worker": "background.js"
