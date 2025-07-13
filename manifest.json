@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Markdown Reader",
+  "version": "1.0",
+  "description": "Renders markdown and plain text content with a beautiful reader-style interface",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["marked.min.js", "highlight.min.js", "content.js"],
+      "css": ["github.min.css", "styles.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "host_permissions": ["<all_urls>"]
+}
