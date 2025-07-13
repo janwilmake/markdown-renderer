@@ -7,6 +7,7 @@ A Chrome/Safari extension that renders markdown and plain text content with a be
 - Automatically detects markdown content (`.md`, `.markdown`, `.txt` files)
 - Supports GitHub raw files and gists
 - Syntax highlighting for code blocks
+- In chrome, also is able to add the text/markdown accept header
 - Clean, readable styling
 - GitHub Flavored Markdown support
 
