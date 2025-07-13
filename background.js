@@ -1,5 +1,6 @@
 /// <reference types="chrome"/>
 // Use declarativeNetRequest for better reliability in Manifest V3
+
 chrome.runtime.onInstalled.addListener(() => {
   chrome.declarativeNetRequest.updateDynamicRules({
     removeRuleIds: [1], // Remove any existing rule
